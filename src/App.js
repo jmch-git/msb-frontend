@@ -22,10 +22,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/companies">
+        <Route exact path="/companies">
           <Companies URL={URL}/>
         </Route>
-        <Route path="/createform">
+        <Route exact path="/companies/add">
           <CreateForm />
         </Route>
         <Route path="/info">
