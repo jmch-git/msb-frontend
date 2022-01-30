@@ -1,7 +1,7 @@
 function Home(props) {
     return (
         <div>
-            <h1>HOME</h1>
+           HOME
         </div>
     )
 }

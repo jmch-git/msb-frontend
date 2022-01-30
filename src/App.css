@@ -1,16 +1,86 @@
-.App {
-  text-align: center;
+/* =====UNIVERSAL===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root {
+  --background: #F3F2F2;
+  --dark-green: #326234;
+  --dark-blue: #16324F;
+  --light-green: #7FB285;
+  --blue: #3E92CC;
+  --light-blue: #7ECCD1;
 }
+
+.App {
+  background-color: var(--background);
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("../public/CaviarDreams.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreams-Bold";
+  src: url("../public/CaviarDreams_Bold.ttf");
+}
+
+@font-face {
+  font-family: "TheBoldFont";
+  src: url("../public/TheBoldFont.ttf");
+}
+
+/* =====NAVBAR====== */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 90px;
+  background-color: var(--background);
+}
+
+.nav-headline {
+  font-family: TheBoldFont;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 40px;
+  font-family: CaviarDreams;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  transition: all .2s ease-in-out;
+}
+
+.nav-links a:hover {
+  transform: scale(1.1);
+  color: var(--dark-green)
+}
+
+
+/* ======Footer===== */
+
+.footer {
+  display: flex;
+}
+.mountains {
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
 
 
