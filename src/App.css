@@ -311,6 +311,7 @@ html {
 .tip-text {
   font-family: CaviarDreams;
   font-size: 20px;
+  padding: 0px 100px;
 }
 
 #two {
@@ -327,6 +328,12 @@ html {
 
 #five {
   background-color: var(--light-blue)
+}
+
+
+/* =====BRANDS PAGE===== */
+.brands {
+  text-align: center;
 }
 
 
