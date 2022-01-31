@@ -149,7 +149,7 @@ html {
   position: absolute;
   width: 3px;
   height: 350px;
-  top: 90%;
+  top: 80%;
   left: 50%;
   display: block;
 }
@@ -241,7 +241,7 @@ html {
 .info-stats {
   display: flex;
   justify-content: center;
-  margin: 60px 100px;
+  margin: 110px 100px;
   text-align: center;
   column-gap: 150px;
 }
@@ -268,6 +268,68 @@ html {
   font-family: CaviarDreams;
   font-size: 24px;
 }
+
+/* =====TIPS COMPONENT===== */
+.tips {
+  text-align: center;
+  margin: 0px 100px;
+}
+
+.tips-headline {
+  font-family: TheBoldFont;
+  font-size: 44px;
+  padding-bottom: 10px;
+}
+
+.tips-text {
+  font-family: CaviarDreams;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.tip {
+  height: 300px;
+  width: 300px;
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 100px 20px 20px 20px;
+}
+
+.tip-headline {
+  font-family: TheBoldFont;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.tip-text {
+  font-family: CaviarDreams;
+  font-size: 20px;
+}
+
+#two {
+  background-color: var(--light-green)
+}
+
+#three {
+  background-color: var(--blue)
+}
+
+#four {
+  background-color: var(--dark-green);
+}
+
+#five {
+  background-color: var(--light-blue)
+}
+
+
 
 
 
