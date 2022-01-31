@@ -48,7 +48,7 @@ function App() {
           <Brands brands={brands}/>
         </Route>
         <Route exact path="/brands/add">
-          <CreateForm />
+        <CreateForm createBrands={createBrands}/>
         </Route>
         <Route path="/info">
           <Info />
