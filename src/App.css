@@ -39,7 +39,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 90px;
+  padding: 50px 100px;
   background-color: var(--background);
 }
 
@@ -76,6 +76,50 @@
 .mountains {
   height: auto;
   width: 100%;
+}
+
+/* =====Hero Component===== */
+
+.hero {
+  height: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.background-video {
+  position: relative;
+  z-index: 0;
+  filter:brightness(80%);
+}
+
+.video-overlay {
+  position:absolute;
+  top: 30%;
+  left: 65%;
+  z-index: 1;
+  padding-right: 20px;
+}
+
+.hero-headline {
+  font-family: TheBoldFont;
+  font-size: 60px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.hero-subhead {
+  font-family: TheBoldFont;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 15px;;
+}
+
+.hero-copy {
+  font-family: CaviarDreams;
+  color: white;
+
 }
 
 

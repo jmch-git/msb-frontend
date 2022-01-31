@@ -1,7 +1,9 @@
+import Hero from "../components/Hero";
+
 function Home(props) {
     return (
         <div>
-           HOME
+           <Hero />
         </div>
     )
 }
