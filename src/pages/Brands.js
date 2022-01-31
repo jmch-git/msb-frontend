@@ -20,7 +20,7 @@ function Brands(props) {
     return (
         <div className="brands">
             <h2 className="tips-headline">Our Brands.</h2>
-            <p className="tip-text">Each of the below brands is recommended by our community. They employ sustainable practices and/or provide sustainable products - making it easier for us to be environmentally conscious.</p>
+            <p className="tips-text">Each of the below brands is recommended by our community. They employ sustainable practices and/or provide sustainable products - making it easier for us to be environmentally conscious.</p>
            { props.brands ? loaded() : loading() }
         </div>
     )

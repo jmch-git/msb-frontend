@@ -284,7 +284,7 @@ html {
 .tips-text {
   font-family: CaviarDreams;
   font-size: 22px;
-  padding-bottom: 40px;
+  padding: 0px 100px 50px 100px;
 }
 
 .tips-container {
@@ -311,7 +311,6 @@ html {
 .tip-text {
   font-family: CaviarDreams;
   font-size: 20px;
-  padding: 0px 100px;
 }
 
 #two {
