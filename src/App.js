@@ -1,19 +1,41 @@
 import './App.css';
 
 // IMPORT COMPONENTS
+import { useEffect, useState } from 'react';
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // IMPORT PAGES
 import Home from "./pages/Home";
-import Companies from "./pages/Companies";
+import Brands from "./pages/Brands";
 import CreateForm from "./pages/CreateForm";
 import Info from "./pages/Info";
 
 function App() {
-  // URL should have backend Heroku URL
-  const URL = ""
+  const [ brands, setBrands ] = useState(null);
+
+  const URL = "https://backend-msb.herokuapp.com/brands"
+
+  const getBrands  = async() => {
+    const response = await fetch(URL);
+    const data = await response.json();
+    setBrands(data);
+  }
+
+  const createBrands = async (brand) => {
+    await fetch(URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "Application/json",
+      },
+      body: JSON.stringify(brand),
+    });
+    // update list of people
+    getBrands();
+  }
+
+  useEffect(() => getBrands(), []);
 
   return (
     <div className="App">
@@ -22,10 +44,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/companies">
-          <Companies URL={URL}/>
+        <Route exact path="/brands">
+          <Brands brands={brands}/>
         </Route>
-        <Route exact path="/companies/add">
+        <Route exact path="/brands/add">
           <CreateForm />
         </Route>
         <Route path="/info">
