@@ -1,7 +1,9 @@
+import InfoHero from "../components/InfoHero";
+
 function Info(props) {
     return (
-        <div>
-            <h1>Info and Tips</h1>
+        <div className="Info">
+           <InfoHero />
         </div>
     )
 }

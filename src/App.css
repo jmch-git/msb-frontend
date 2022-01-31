@@ -19,6 +19,10 @@
   background-color: var(--background);
 }
 
+html {
+  background-color: var(--background);
+}
+
 @font-face {
   font-family: "CaviarDreams";
   src: url("../public/CaviarDreams.ttf");
@@ -209,6 +213,31 @@
   color: white;
   transform: scale(1.1);
 }
+
+/* =====Info Hero Component===== */
+
+.info-hero {
+  background-color: var(--dark-green); 
+  color: white;
+  display: flex; 
+  align-items: center;
+  column-gap: 80px;
+  padding: 90px 50px;
+  margin: 0px 100px;
+}
+
+.info-headline {
+  font-family: TheBoldFont;
+  font-size: 60px;
+}
+
+.info-text {
+  font-family: CaviarDreams;
+  font-size: 22px;
+  padding-left: 80px;
+}
+
+
 
 
 
