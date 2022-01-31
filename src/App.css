@@ -111,7 +111,7 @@
 
 .hero-subhead {
   font-family: TheBoldFont;
-  font-size: 30px;
+  font-size: 28px;
   color: white;
   padding-bottom: 15px;;
 }
@@ -119,8 +119,59 @@
 .hero-copy {
   font-family: CaviarDreams;
   color: white;
-
+  font-size: 20px;
 }
+
+/* =====About Component===== */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+.about-image {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: center;
+}
+
+.about-image:after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 3px;
+  height: 300px;
+  top: 90%;
+  left: 50%;
+  display: block;
+}
+
+.about-text {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.about-headline {
+  font-family: TheBoldFont;
+  font-size: 44px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+}
+
+.about-text {
+  font-family: CaviarDreams;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.trees-icon {
+  width: 500px;
+  height: auto;
+}
+
+
 
 
 
