@@ -95,11 +95,10 @@
 }
 
 .video-overlay {
-  position:absolute;
+  position: absolute;
   top: 30%;
-  left: 65%;
+  left: 50%;
   z-index: 1;
-  padding-right: 20px;
 }
 
 .hero-headline {
@@ -113,13 +112,15 @@
   font-family: TheBoldFont;
   font-size: 28px;
   color: white;
-  padding-bottom: 15px;;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .hero-copy {
   font-family: CaviarDreams;
   color: white;
   font-size: 20px;
+  padding-right: 50px;
 }
 
 /* =====About Component===== */
@@ -143,7 +144,7 @@
   background-color: #000;
   position: absolute;
   width: 3px;
-  height: 300px;
+  height: 350px;
   top: 90%;
   left: 50%;
   display: block;
@@ -157,18 +158,56 @@
   font-family: TheBoldFont;
   font-size: 44px;
   padding-bottom: 25px;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 .about-text {
   font-family: CaviarDreams;
   font-size: 20px;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 .trees-icon {
-  width: 500px;
+  width: 400px;
   height: auto;
+}
+
+
+/* =====IMAGE TEXT COMPONENT===== */
+.ImageText {
+  padding:  100px 50px;
+  margin: 50px 100px;
+  text-align: center;
+  color: white;
+  font-family: TheBoldFont;
+  background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643654044/my-sustainable-brand/greg-becker-sYzFIusQp3Q-unsplash_hrzfqo.jpg");
+  background-position: 50% 53%;
+}
+
+.image-text-headline {
+  font-size: 44px;
+  padding-bottom: 5px;
+}
+
+.image-text-subhead {
+  font-size: 28px;
+  padding-bottom: 35px;
+}
+
+.image-text-button {
+  border: none;
+  padding: 15px 25px;
+  background-color: var(--dark-blue);
+  color: white;
+  font-family: TheBoldFont;
+  font-size: 18px;
+  transition: all .2s ease-in-out;
+}
+
+.image-text-button:hover {
+  background-color: #3788D2;
+  color: white;
+  transform: scale(1.1);
 }
 
 
