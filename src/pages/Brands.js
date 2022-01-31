@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import CompanyCards from "../components/CompanyCards";
 
 
-function Companies(props) {
+function Brands(props) {
     return (
         <h1>Companies List Page</h1>
     )
@@ -44,4 +44,4 @@ function Companies(props) {
     // return companies ? loaded() : <h1>Loading...</h1>;
 }
 
-export default Companies;
+export default Brands;

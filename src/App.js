@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 // IMPORT PAGES
 import Home from "./pages/Home";
-import Companies from "./pages/Companies";
+import Brands from "./pages/Brands";
 import CreateForm from "./pages/CreateForm";
 import Info from "./pages/Info";
 
@@ -23,7 +23,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/brands">
-          <Companies URL={URL}/>
+          <Brands URL={URL}/>
         </Route>
         <Route exact path="/brands/add">
           <CreateForm />
