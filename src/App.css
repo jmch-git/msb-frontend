@@ -143,17 +143,6 @@ html {
   justify-self: center;
 }
 
-.about-image:after {
-  content: "";
-  background-color: #000;
-  position: absolute;
-  width: 3px;
-  height: 350px;
-  top: 80%;
-  left: 50%;
-  display: block;
-}
-
 .about-text {
   grid-area: 1 / 2 / 2 / 3;
 }
@@ -333,6 +322,57 @@ html {
 /* =====BRANDS PAGE===== */
 .brands {
   text-align: center;
+}
+
+/* ======FORM PAGE===== */
+fieldset {
+  border: 2px solid black;
+  background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643726699/my-sustainable-brand/marita-kavelashvili-ugnrXk1129g-unsplash_dnmswc.jpg");
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  margin: 40px 250px 80px 250px;
+  border-radius: 10px;
+}
+
+label {
+  font-family: TheBoldFont;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-family: CaviarDreams;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+input {
+  font-family: CaviarDreams;
+  padding: 10px;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-btn {
+  border: none;
+  width: 35%;
+  font-family: TheBoldFont;
+  font-size: 22px;
+  background-color: var(--dark-green);
+  padding: 15px 20px;
+  transition: all .2s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: var(--light-green);
+  transform: scale(1.1);
 }
 
 
