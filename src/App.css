@@ -55,7 +55,7 @@ html {
 
 .nav-links {
   display: flex;
-  column-gap: 40px;
+  column-gap: 30px;
   font-family: CaviarDreams;
   align-items: center;
 }
@@ -68,10 +68,27 @@ html {
 
 .nav-links a:hover {
   transform: scale(1.1);
-  color: var(--dark-green)
+  color: var(--dark-green);
 }
 
+.log {
+  list-style-type: none;
+  font-size: 22px;
+  color: white;
+  background-color: var(--dark-green);
+  padding: 10px 20px;
+  transition: all .2s ease-in-out;
+}
 
+.log:hover {
+  background-color: var(--light-green);
+  transform: scale(1.1);
+}
+
+.greeting {
+  list-style-type: none;
+  font-size: 20px;
+}
 /* ======Footer===== */
 
 .footer {
@@ -365,7 +382,7 @@ input {
   width: 35%;
   font-family: TheBoldFont;
   font-size: 22px;
-  background-color: var(--dark-green);
+  background-color: #408D43;
   padding: 15px 20px;
   transition: all .2s ease-in-out;
 }
