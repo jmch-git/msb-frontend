@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Brands(props) {
 
@@ -6,7 +6,10 @@ function Brands(props) {
     const loaded = () => {
         return props.brands.map((brand) => (
         <div key={brand._id} className="brand">
-            <h1>{brand.name}</h1>
+            <h2>{brand.name}</h2>
+            <h3>{brand.industry}</h3>
+            <h3>{brand.description}</h3>
+            <Link to={brand.website}><h2>Company Website</h2></ Link>
             <img src={brand.image} alt={brand.name} />
         </div>
     ));

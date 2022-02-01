@@ -143,17 +143,6 @@ html {
   justify-self: center;
 }
 
-.about-image:after {
-  content: "";
-  background-color: #000;
-  position: absolute;
-  width: 3px;
-  height: 350px;
-  top: 80%;
-  left: 50%;
-  display: block;
-}
-
 .about-text {
   grid-area: 1 / 2 / 2 / 3;
 }
