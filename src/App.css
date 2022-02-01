@@ -377,6 +377,15 @@ input {
   text-align: center;
 }
 
+.login {
+  font-family: TheBoldFont;
+  font-size: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding: 250px 270px;
+  color: var(--blue)
+}
+
 .form-btn {
   border: none;
   width: 35%;

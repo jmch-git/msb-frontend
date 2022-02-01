@@ -84,7 +84,7 @@ function CreateForm(props) {
     }
 
     const loading = () => {
-        return <h1>Login to Add Your Favorite Sustainable Brand</h1>
+        return <h2 className="login">Login to Add Your Favorite Sustainable Brand</h2>
     }
 
     return props.user ? loaded() : loading()
