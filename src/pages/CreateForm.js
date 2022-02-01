@@ -26,21 +26,24 @@ function CreateForm(props) {
     return (
         <div>
             <form onSubmit={handleSubmit}>
+                <fieldset>
+                <label htmlFor="name">Name: </label>
                 <input 
                     type="text" 
                     name="name" 
                     value={newForm.name} 
-                    placeholder="name"
+                    placeholder="Tesla"
                     onChange={handleChange}
-                    />
+                />
+                <label htmlFor="website">Website: </label>
                 <input 
                     type="text" 
                     name="website" 
                     value={newForm.website} 
-                    placeholder="website"
+                    placeholder="tesla.com"
                     onChange={handleChange}
-                    />
-                <label htmlFor="industry">Select an Industry</label>   
+                />
+                <label htmlFor="industry">Select an Industry: </label>   
                 <select name="industry" value={newForm.industry} onChange={handleChange}>
                     <option value="fashion">Fashion</option>
                     <option value="Automotive">Automotive</option>
@@ -48,21 +51,26 @@ function CreateForm(props) {
                     <option value="Food/Restaurants">Restaurants</option>
                     <option value="Household Products">Household Products</option>
                 </select>
+                <label htmlFor="description">Description/Notes: </label>   
                 <input 
                     type="text" 
                     name="description" 
                     value={newForm.description} 
-                    placeholder="description"
+                    placeholder="fuel efficient cars"
                     onChange={handleChange}
-                    />
+                />
+                <label htmlFor="image">Image URL: </label>   
                 <input 
                     type="text" 
                     name="image" 
                     value={newForm.image} 
-                    placeholder="image"
+                    placeholder="image url"
                     onChange={handleChange}
-                    />  
-                <input type="submit" value="Suggest Brand" />                      
+                />  
+                <div className="form">
+                <input className="form-btn" type="submit" value="Suggest Brand" />
+                </div>
+                </fieldset>                      
             </form>
         </div>
     )
