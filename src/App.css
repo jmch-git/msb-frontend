@@ -587,6 +587,73 @@ input {
 
 }
 
+@media only screen and (max-width: 500px) {
+  /* FORM PAGE */
+  fieldset {
+    padding: 30px 20px;
+    margin: 40px 10px 80px 10px;
+  }
+
+  .form-btn {
+    font-size: 18px;
+  }
+
+  /* Brands page */
+  .brand-container {
+    margin: 20px 20px;
+    row-gap: 40px;
+  }
+  
+  .brand-card {
+    height: 400px;
+    width: 400px;
+  }
+  
+  .brand-image {
+    max-width: 300px;
+  }
+
+  #search-label {
+    margin: 20px 30px 80px 30px;
+    width: 70%;
+  }
+
+  .tips-text {
+    padding: 0px 30px 50px 30px;
+  }
+
+  /* HOMEPAGE */
+  .video-overlay {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 0%;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .hero-headline {
+    font-size: 40px;
+  }
+  
+  .hero-subhead {
+    padding-right: 0px;
+    font-size: 28px;
+  }
+
+  .hero-copy {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .trees-icon {
+    max-width: 300px;
+  }
+  
+}
+
 
 
 
