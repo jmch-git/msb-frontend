@@ -182,6 +182,11 @@ html {
   height: auto;
 }
 
+#brand-btn {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
 
 /* =====IMAGE TEXT COMPONENT===== */
 .ImageText {
@@ -285,6 +290,7 @@ html {
   font-family: TheBoldFont;
   font-size: 44px;
   padding-bottom: 10px;
+  padding-top: 40px;
 }
 
 .tips-text {
@@ -402,6 +408,50 @@ input {
 }
 
 
+/* ======BRANDS PAGE===== */
+.brand-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 100px;
+  column-gap: 100px;
+  row-gap: 100px;
+  padding-bottom: 40px;
+}
+
+.brand-card {
+  height: 400px;
+  width: 400px;
+}
+
+.brand-image {
+  max-width: 400px;
+  box-shadow: 8px 8px 5px var(--dark-blue);
+  margin-bottom: 25px;
+  transition: all .2s ease-in-out;
+}
+
+.brand-image:hover {
+  background-color: var(--light-green);
+  transform: scale(1.1);
+}
+
+.brand-headline {
+  font-family: TheBoldFont;
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+
+.brand-subhead {
+  font-family: TheBoldFont;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.brand-details {
+  font-family: CaviarDreams;
+  font-size: 18px;
+}
 
 
 

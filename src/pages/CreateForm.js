@@ -52,7 +52,7 @@ function CreateForm(props) {
                                 <option value="fashion">Fashion</option>
                                 <option value="Automotive">Automotive</option>
                                 <option value="Makeup and Self Care">Makeup and Self Care</option>
-                                <option value="Food/Restaurants">Restaurants</option>
+                                <option value="Food/Restaurants">Food and Restaurants</option>
                                 <option value="Household Products">Household Products</option>
                             </select>
                             <label htmlFor="description">Description/Notes: </label>
