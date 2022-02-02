@@ -52,7 +52,7 @@ function CreateForm(props) {
                                 <option value="fashion">Fashion</option>
                                 <option value="Automotive">Automotive</option>
                                 <option value="Makeup and Self Care">Makeup and Self Care</option>
-                                <option value="Food/Restaurants">Restaurants</option>
+                                <option value="Food/Restaurants">Food and Restaurants</option>
                                 <option value="Household Products">Household Products</option>
                             </select>
                             <label htmlFor="description">Description/Notes: </label>
@@ -84,7 +84,7 @@ function CreateForm(props) {
     }
 
     const loading = () => {
-        return <h1>Login to Add Your Favorite Sustainable Brand</h1>
+        return <h2 className="login">Login to Add Your Favorite Sustainable Brand</h2>
     }
 
     return props.user ? loaded() : loading()

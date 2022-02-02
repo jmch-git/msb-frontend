@@ -9,15 +9,15 @@ function NavBar(props) {
                 <Link to="/"><h2>HOME</h2></Link>
                 <Link to="/brands"><h2>BRANDS</h2></Link>
                 <Link to="/info"><h2>INFO</h2></Link>
-                <ul>
+                <ul className="nav-links">
                     {
                         props.user ?
                         <>
-                        <li>Howdy, {props.user.displayName}</li>
-                        <li onClick={logout}>Logout</li>
+                        <li className="greeting">Howdy, {props.user.displayName}</li>
+                        <li className="log" onClick={logout}>Logout</li>
                         </>
                         :
-                        <li onClick={login}>Login</li>
+                        <li className="log" onClick={login}>Login</li>
                     }
                 </ul>
             </div>
