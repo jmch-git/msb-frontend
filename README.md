@@ -15,6 +15,7 @@ React
 Node
 AJAX
 Google Firebase
+JavaScript
 
 ## Getting Started
 Heroku - https://backend-msb.herokuapp.com/brands
