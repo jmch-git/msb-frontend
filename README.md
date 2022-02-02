@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Introduction -  My Sustainable Brands App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An easy change we can make as consumers is to support businesses that are intentional about meeting social and environmental standards. But there are so many brands out there, it's hard to know which ones employ these sustainable practices. This community allows people to recommend brands they know and trust - as well as see other's recommendations and learn tips and tricks to further sustainability.
 
-## Available Scripts
+## Screenshots
+<img width="1858" alt="Screen Shot 2022-02-02 at 12 30 31 PM" src="https://user-images.githubusercontent.com/94821167/152232766-e0eb1b1b-11be-4fc2-a7b3-02fc1d759478.png">
+<img width="1499" alt="Screen Shot 2022-02-02 at 12 32 38 PM" src="https://user-images.githubusercontent.com/94821167/152232798-bc1b62f0-8004-4509-919f-1813b8519180.png">
+<img width="1477" alt="Screen Shot 2022-02-02 at 12 33 54 PM" src="https://user-images.githubusercontent.com/94821167/152232922-e66734a0-87a3-466d-bafd-40e005e7f97c.png">
+<img width="1479" alt="Screen Shot 2022-02-02 at 12 34 41 PM" src="https://user-images.githubusercontent.com/94821167/152232991-cb08d717-98f5-41c0-b4d5-f062fd2cee06.png">
 
-In the project directory, you can run:
+## Technologies Used
+MongoDB/Mongoose
+Express
+React
+Node
+AJAX
+Google Firebase
 
-### `npm start`
+## Getting Started
+Heroku - https://backend-msb.herokuapp.com/brands
+Trello - https://trello.com/b/thWnce5p/my-sustainable-brands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Future Enhancements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+As a user, I want to be able to create a list of 'My Favorite Brands' and delete any brands off that list that I choose to. 
 
-### `npm test`
+### Authors and acknowledgment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app was created with enthusiasm and determination by:
 
-### `npm run build`
+Nicole Baird - Frontend Lead, React, CSS, Pitch Deck, Wireframes, Front-End Development 
+David Dugas - Backend Lead, React, Auth, Database Management/ERD Modeling, Full-Stack Development
+June Holmberg - Scrum Master, React, Auth, Trello Board, README, Full-Stack Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
