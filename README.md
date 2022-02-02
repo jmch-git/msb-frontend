@@ -28,7 +28,7 @@ As a user, I want to be able to create a list of 'My Favorite Brands' and delete
 
 This app was created with enthusiasm and determination by:
 
-Nicole Baird - Frontend Lead, React, CSS, Pitch Deck, Wireframes, Front-End Development 
-David Dugas - Backend Lead, React, Auth, Database Management/ERD Modeling, Full-Stack Development
-June Holmberg - Scrum Master, React, Auth, Trello Board, README, Full-Stack Development
+#### Nicole Baird - Frontend Lead, React, CSS, Pitch Deck, Wireframes, Front-End Development 
+#### David Dugas - Backend Lead, React, Auth, Database Management/ERD Modeling, Full-Stack Development
+#### June Holmberg - Scrum Master, React, Auth, Trello Board, README, Full-Stack Development
 
