@@ -45,6 +45,7 @@ html {
   justify-content: space-between;
   padding: 50px 100px;
   background-color: var(--background);
+  overflow: hidden;
 }
 
 .nav-headline {
@@ -118,7 +119,7 @@ html {
 .video-overlay {
   position: absolute;
   top: 30%;
-  left: 50%;
+  left: 45%;
   z-index: 1;
 }
 
@@ -178,7 +179,7 @@ html {
 }
 
 .trees-icon {
-  width: 400px;
+  max-width: 400px;
   height: auto;
 }
 
@@ -355,7 +356,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   padding: 30px 50px;
-  margin: 40px 250px 80px 250px;
+  margin: 40px 100px 80px 100px;
   border-radius: 10px;
 }
 
@@ -456,6 +457,66 @@ input {
 #search-label {
   margin: 20px 100px 80px 100px;
   width: 40%;
+}
+
+/* =====MOBILE STYLING===== */
+
+@media only screen and (max-width: 1024px) {
+  /* HOMEPAGE */
+  .hero {
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/dhbumhhh1/image/upload/v1643642855/my-sustainable-brand/Screen_Shot_2022-01-31_at_10.27.12_AM_so0fmi.png");
+    background-position: 25% 50%;
+  }
+  
+  .background-video {
+    display: none;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+  }
+
+  /* INFO PAGE */
+  .info-hero {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-text {
+    padding-left: 0px;
+  }
+
+  .info-stats {
+    flex-wrap: wrap;
+    margin: 60px 100px;
+    text-align: center;
+    row-gap: 60px;
+  }
+
+  .stat-text {
+    font-family: CaviarDreams;
+    font-size: 24px;
+    padding: 10px 200px;
+  }
+
 }
 
 
