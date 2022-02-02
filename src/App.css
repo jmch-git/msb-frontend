@@ -395,7 +395,7 @@ input {
 
 .form-btn {
   border: none;
-  width: 35%;
+  width: 55%;
   font-family: TheBoldFont;
   font-size: 22px;
   background-color: #408D43;
@@ -427,6 +427,7 @@ input {
 
 .brand-image {
   max-width: 400px;
+  height: auto;
   box-shadow: 8px 8px 5px var(--dark-blue);
   margin-bottom: 25px;
   transition: all .2s ease-in-out;
@@ -488,8 +489,22 @@ input {
   .about {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     row-gap: 60px;
+    text-align: center;
+  }
+
+  .about-headline {
+    padding-left: 0px;
+  }
+
+  .about-text {
+    padding-left: 0px;
+  }
+
+  #brand-btn {
+    margin-left: 0px;
   }
 
   /* INFO PAGE */
@@ -516,6 +531,59 @@ input {
     font-size: 24px;
     padding: 10px 200px;
   }
+
+}
+
+@media only screen and (max-width: 700px) {
+ /* HOMEPAGE */
+
+ .hero {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+ .ImageText {
+    padding:  100px 25px;
+    margin: 50px 20px;
+  }
+
+  .about {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  /* BRANDS */
+  .brand-container {
+    margin: 20px 20px;
+  }
+
+  /* INFO PAGE */
+
+  .info-stats {
+    margin: 40px 30px;
+  }
+
+  .info-hero {
+    margin: 0px 20px;
+  }
+
+  .tips {
+    text-align: center;
+    margin: 0px 20px;
+  }
+
+  .info-headline {
+    font-size: 40px;
+  }
+
+  /* FORM PAGE */
+  fieldset {
+    padding: 30px 50px;
+    margin: 40px 40px 80px 40px;
+  }
+  
 
 }
 
