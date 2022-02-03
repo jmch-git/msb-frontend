@@ -3,7 +3,7 @@ import './App.css';
 // IMPORT COMPONENTS
 import { useEffect, useState } from 'react';
 import { auth } from './services/firebase';
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -12,30 +12,30 @@ import Home from "./pages/Home";
 import Brands from "./pages/Brands";
 import CreateForm from "./pages/CreateForm";
 import Info from "./pages/Info";
+import EditForm from "./pages/EditForm";
 
 function App() {
   const [user, setUser] = useState(null);
-  
+
   useEffect(() => {
     auth.onAuthStateChanged(user => setUser(user));
   }, []);
-  
-  
-  
-  
-  const [ brands, setBrands ] = useState(null);
 
-  const URL = "https://backend-msb.herokuapp.com/brands"
 
-  const getBrands  = async() => {
+  const [brands, setBrands] = useState(null);
+
+  // const URL = "https://backend-msb.herokuapp.com/brands/"
+  const URL = "http://localhost:4000/brands/"
+
+  const getBrands = async () => {
     const response = await fetch(URL);
     const data = await response.json();
     setBrands(data);
   }
 
   const createBrands = async (brand) => {
-    if(!user) return;
-    const token = user.getIdToken();
+    if (!user) return;
+    const token = await user.getIdToken();
     await fetch(URL, {
       method: "POST",
       headers: {
@@ -44,7 +44,18 @@ function App() {
       },
       body: JSON.stringify(brand),
     });
-    // update list of people
+    getBrands();
+  };
+
+  const updateBrands = async (brand, id) => {
+    console.log(id)
+    await fetch(URL + id, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "Application/JSON",
+      },
+      body: JSON.stringify(brand),
+    });
     getBrands();
   }
 
@@ -58,14 +69,24 @@ function App() {
           <Home user={user} />
         </Route>
         <Route exact path="/brands">
-          <Brands brands={brands}/>
+          <Brands brands={brands} />
         </Route>
         <Route exact path="/brands/add">
-        <CreateForm createBrands={createBrands} user={user}/>
+          <CreateForm createBrands={createBrands} user={user} />
         </Route>
         <Route path="/info">
           <Info />
         </Route>
+        <Route
+          path="/brands/:id"
+          render={(rp) => (
+            <EditForm
+              brands={brands}
+              updateBrands={updateBrands}
+              {...rp}
+            />
+          )}
+        />
       </Switch>
       <Footer />
     </div>
