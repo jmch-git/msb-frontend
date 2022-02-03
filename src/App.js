@@ -47,6 +47,7 @@ const URL = "https://backend-msb.herokuapp.com/brands/"
   };
 
   const updateBrands = async (brand, id) => {
+    if (!user) return;
     await fetch(URL + id, {
       method: "PUT",
       headers: {
@@ -80,6 +81,7 @@ const URL = "https://backend-msb.herokuapp.com/brands/"
           render={(rp) => (
             <EditForm
               brands={brands}
+              user={user}
               updateBrands={updateBrands}
               {...rp}
             />
