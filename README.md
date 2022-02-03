@@ -3,18 +3,18 @@
 An easy change we can make as consumers is to support businesses that are intentional about meeting social and environmental standards. But there are so many brands out there, it's hard to know which ones employ these sustainable practices. This community allows people to recommend brands they know and trust - as well as see other's recommendations and learn tips and tricks to further sustainability.
 
 ## Screenshots
-<img width="1858" alt="Screen Shot 2022-02-02 at 12 30 31 PM" src="https://user-images.githubusercontent.com/94821167/152232766-e0eb1b1b-11be-4fc2-a7b3-02fc1d759478.png">
+<img width="1522" alt="Screen Shot 2022-02-02 at 12 32 05 PM" src="https://user-images.githubusercontent.com/94821167/152367670-0b011e8b-9f4e-4004-9134-4bd3fab07929.png">
 <img width="1499" alt="Screen Shot 2022-02-02 at 12 32 38 PM" src="https://user-images.githubusercontent.com/94821167/152232798-bc1b62f0-8004-4509-919f-1813b8519180.png">
 <img width="1477" alt="Screen Shot 2022-02-02 at 12 33 54 PM" src="https://user-images.githubusercontent.com/94821167/152232922-e66734a0-87a3-466d-bafd-40e005e7f97c.png">
 <img width="1479" alt="Screen Shot 2022-02-02 at 12 34 41 PM" src="https://user-images.githubusercontent.com/94821167/152232991-cb08d717-98f5-41c0-b4d5-f062fd2cee06.png">
 
 ## Technologies Used
-MongoDB/Mongoose
-Express
-React
-Node
-AJAX
-Google Firebase
+MongoDB/Mongoose    
+Express    
+React    
+Node    
+AJAX    
+Google Firebase    
 JavaScript
 
 ## Getting Started
