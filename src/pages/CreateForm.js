@@ -49,6 +49,7 @@ function CreateForm(props) {
                             />
                             <label htmlFor="industry">Select an Industry: </label>
                             <select name="industry" value={newForm.industry} onChange={handleChange}>
+                                <option value="" disabled selected>Select Industry</option>
                                 <option value="Fashion">Fashion</option>
                                 <option value="Automotive">Automotive</option>
                                 <option value="Makeup and Self Care">Makeup and Self Care</option>
