@@ -27,6 +27,7 @@ function Brands(props) {
                 <h2 className="brand-headline">{brand.name}</h2>
                 <h3 className="brand-subhead">{brand.industry}</h3>
                 <h3 className="brand-details">{brand.description}</h3>
+                <Link to={`/brands/${brand._id}`}><button>Edit Brand</button></Link>
             </div>
         ))}
         </>
@@ -57,7 +58,8 @@ function Brands(props) {
            { props.brands ? loaded() : loading() }
            </div>
         </div>
-    )
+    );
+  
 }
 
 export default Brands;

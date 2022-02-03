@@ -49,7 +49,7 @@ function CreateForm(props) {
                             />
                             <label htmlFor="industry">Select an Industry: </label>
                             <select name="industry" value={newForm.industry} onChange={handleChange}>
-                                <option value="fashion">Fashion</option>
+                                <option value="Fashion">Fashion</option>
                                 <option value="Automotive">Automotive</option>
                                 <option value="Makeup and Self Care">Makeup and Self Care</option>
                                 <option value="Food/Restaurants">Food and Restaurants</option>
@@ -77,7 +77,7 @@ function CreateForm(props) {
                         </fieldset>
                     </form>
                 }
-
+            
             </div>
 
         )
