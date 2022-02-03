@@ -24,8 +24,7 @@ function App() {
 
   const [brands, setBrands] = useState(null);
 
-  // const URL = "https://backend-msb.herokuapp.com/brands/"
-  const URL = "http://localhost:4000/brands/"
+const URL = "https://backend-msb.herokuapp.com/brands/"
 
   const getBrands = async () => {
     const response = await fetch(URL);
@@ -48,7 +47,6 @@ function App() {
   };
 
   const updateBrands = async (brand, id) => {
-    console.log(id)
     await fetch(URL + id, {
       method: "PUT",
       headers: {

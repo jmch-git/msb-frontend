@@ -17,7 +17,6 @@ function EditForm(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         props.updateBrands(editForm, brand._id);
-        console.log(editForm)
         props.history.push('/brands')
     };
 
