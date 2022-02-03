@@ -9,7 +9,7 @@ function About () {
             <div className="about-text">
                 <h2 className="about-headline">OUR MISSION.</h2>
                 <p className="about-text">
-                    As easy change we can make as consumers is to support businesses that are intentional about meeting social and environmental standards. But there are so many brands out there, 
+                    An easy change we can make as consumers is to support businesses that are intentional about meeting social and environmental standards. But there are so many brands out there, 
                     it's hard to know which ones employ these sustainable practices. This community allows people to recommend brands they know and trust - as well as see other's recommendations and learn tips and tricks to further sustainability.
                 </p>
                 <br></br>

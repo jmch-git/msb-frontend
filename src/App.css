@@ -498,9 +498,9 @@ input {
   justify-content: center;
   flex-wrap: wrap;
   margin: 20px 100px;
-  column-gap: 100px;
-  row-gap: 100px;
-  padding-bottom: 40px;
+  column-gap: 60px;
+  row-gap: 150px;
+  padding-bottom: 100px;
 }
 
 .brand-card {
@@ -541,6 +541,45 @@ input {
 #search-label {
   margin: 20px 100px 80px 100px;
   width: 40%;
+}
+
+.edit-btn {
+  border: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: var(--dark-blue);
+  color: white;
+  font-family: TheBoldFont;
+  font-size: 18px;
+  transition: all .2s ease-in-out;
+}
+
+.edit-btn:hover {
+  background-color: var(--blue);
+  transform: scale(1.1);
+}
+
+.brand-add-text {
+  font-family: TheBoldFont;
+  font-size: 26px;
+  padding: 0px 40px 20px 40px;
+}
+
+.add-brand-button {
+  border: none;
+  padding: 15px 25px;
+  background-color: var(--dark-blue);
+  color: white;
+  font-family: TheBoldFont;
+  font-size: 18px;
+  transition: all .2s ease-in-out;
+  margin-bottom: 40px;
+}
+
+.add-brand-button:hover {
+  background-color: #3788D2;
+  color: white;
+  transform: scale(1.1);
 }
 
 /* =====MOBILE STYLING===== */

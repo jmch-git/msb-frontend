@@ -27,7 +27,7 @@ function Brands(props) {
                 <h2 className="brand-headline">{brand.name}</h2>
                 <h3 className="brand-subhead">{brand.industry}</h3>
                 <h3 className="brand-details">{brand.description}</h3>
-                <Link to={`/brands/${brand._id}`}><button>Edit Brand</button></Link>
+                <Link to={`/brands/${brand._id}`}><button className="edit-btn">Edit Brand</button></Link>
             </div>
         ))}
         </>
@@ -44,8 +44,10 @@ function Brands(props) {
             <div className="intro">
                 <h2 className="tips-headline">Our Brands.</h2>
                 <p className="tips-text">Each of the below brands is recommended by our community. They employ sustainable practices and/or provide sustainable products - making it easier for us to be environmentally conscious.</p>
+                <h3 className="brand-add-text">Have a brand you want to go ahead and add to the list?</h3>
+                <Link to="/brands/add"><button className="add-brand-button">Make a Recommendation</button></Link>
                 <form className="form">
-                    <label>Search for a brand: </label> <br></br>
+                    <label>Or search for a brand: </label> <br></br>
                     <input
                         placeholder="Just start typing a name..."
                         name="search"
