@@ -6,10 +6,12 @@ An easy change we can make as consumers is to support businesses that are intent
 https://www.canva.com/design/DAE2rZQtqEQ/6JnrggnSI-dPx188YHkoRQ/view?utm_content=DAE2rZQtqEQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#5
 
 ## Screenshots
-<img width="1522" alt="Screen Shot 2022-02-02 at 12 32 05 PM" src="https://user-images.githubusercontent.com/94821167/152367670-0b011e8b-9f4e-4004-9134-4bd3fab07929.png">
-<img width="1499" alt="Screen Shot 2022-02-02 at 12 32 38 PM" src="https://user-images.githubusercontent.com/94821167/152232798-bc1b62f0-8004-4509-919f-1813b8519180.png">
-<img width="1477" alt="Screen Shot 2022-02-02 at 12 33 54 PM" src="https://user-images.githubusercontent.com/94821167/152232922-e66734a0-87a3-466d-bafd-40e005e7f97c.png">
-<img width="1479" alt="Screen Shot 2022-02-02 at 12 34 41 PM" src="https://user-images.githubusercontent.com/94821167/152232991-cb08d717-98f5-41c0-b4d5-f062fd2cee06.png">
+<img width="1673" alt="Screen Shot 2022-02-03 at 8 42 17 AM" src="https://user-images.githubusercontent.com/94821167/152462448-4d7896b4-f65d-4ad7-a3e0-42b209735d33.png">
+<img width="1668" alt="Screen Shot 2022-02-03 at 8 43 01 AM" src="https://user-images.githubusercontent.com/94821167/152462464-3cc484e8-1db4-41da-9164-269d9e5f223f.png">
+<img width="1659" alt="Screen Shot 2022-02-03 at 8 43 33 AM" src="https://user-images.githubusercontent.com/94821167/152462516-11ba95e1-7ad5-493d-9ced-fb367d272f80.png">
+<img width="1701" alt="Screen Shot 2022-02-03 at 8 45 22 AM" src="https://user-images.githubusercontent.com/94821167/152462549-99682a0e-26df-4a10-a5a7-06ab8163d007.png">
+<img width="1702" alt="Screen Shot 2022-02-03 at 8 46 25 AM" src="https://user-images.githubusercontent.com/94821167/152462586-973a94d6-c494-4be7-828b-2d063c12c31e.png">
+<img width="1669" alt="Screen Shot 2022-02-03 at 8 46 54 AM" src="https://user-images.githubusercontent.com/94821167/152462615-51b25bca-3d43-46ed-a6c7-5f2400c1c9ad.png">
 
 ## Technologies Used
 MongoDB/Mongoose    
@@ -21,7 +23,7 @@ Google Firebase
 JavaScript
 
 ## Getting Started
-Deployed App link (Netlify)
+Deployed App link (Netlify) - https://my-sustainable-brands.netlify.app/
 
 ## Wireframes
 https://www.figma.com/file/zSJ9V23f6bJFCqxdqdHDHx/project-three-msb?node-id=0%3A1
@@ -34,7 +36,8 @@ Trello - https://trello.com/b/thWnce5p/my-sustainable-brands
 
 ## Future Enhancements
 
-As a user, I want to be able to create a list of 'My Favorite Brands' and delete any brands off that list that I choose to. 
+As a user, I want to be able to create a list of 'My Favorite Brands' and delete any brands off that list that I choose to.     
+As a user, I want to search brands based on industry.
 
 ### Authors and acknowledgment
 
