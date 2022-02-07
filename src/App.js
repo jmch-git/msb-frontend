@@ -13,6 +13,7 @@ import Brands from "./pages/Brands";
 import CreateForm from "./pages/CreateForm";
 import Info from "./pages/Info";
 import EditForm from "./pages/EditForm";
+import Contact from './pages/Contact';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -87,6 +88,9 @@ const URL = "https://backend-msb.herokuapp.com/brands/"
             />
           )}
         />
+        <Route path="/contact">
+          <Contact />
+        </Route>
       </Switch>
       <Footer />
     </div>

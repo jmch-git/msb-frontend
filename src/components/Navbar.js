@@ -21,7 +21,8 @@ function NavBar(props) {
                     <ul className="nav-links-desktop">
                         <Link className="page-desk-links" to="/"><li>HOME</li></Link>
                             <Link className="page-desk-links" to="/brands"><li>BRANDS</li></Link>
-                            <Link className="page-desk-links" id="info" to="/info"><li>INFO</li></Link>
+                            <Link className="page-desk-links" to="/info"><li>INFO</li></Link>
+                            <Link className="page-desk-links" id="info" to="/contact"><li>CONTACT</li></Link>
                             {
                                 props.user ?
                                 <>
